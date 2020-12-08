@@ -1,26 +1,24 @@
 #game-container {
-	padding: 20px 20px 20px 10px;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px 20px 20px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .game {
-	/* width: 300px; */
-	/* float: left; */
-	margin:0 0 10px 10px;
-	padding:10px;
-	border: 1px solid #eee;
+  margin:0 0 10px 10px;
+  padding:10px;
+  border: 1px solid #eee;
 }
 .game img {
-	width: 100%;
+  width: 100%;
 }
 .game-name {
-	font-weight: bold;
-	font-size: 14pt;
-	margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14pt;
+  margin-bottom: 5px;
 }
 .game-tags {
-	font-size: 10pt;
+  font-size: 10pt;
 }
 .game-tags .current-tag {
-	font-weight: bold;
+  font-weight: bold;
 }
